@@ -89,4 +89,4 @@ spec:
             {{- toYaml .Values.resources | nindent 12 }}
 ```
 
-All those values can be obtained from a `Values.yaml` file (for default values), or you can set them in the CLI using the `--set <path> value` flag.
+All those values can be obtained from a `values.yaml` file (for default values), or you can set them in the CLI using the `--set <path> value` flag.
